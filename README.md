@@ -13,6 +13,58 @@ This is a minimal animated splash screen project built with **Next.js**, **Tailw
 
 ---
 
+## Code Snippet
+
+        {/* First Element */}
+        <motion.img
+          src="/First.png"
+          alt="First"
+          initial={{ x: "-10vw", rotate: -180, scale: 0 }}
+          animate={{
+            x: 0,
+            rotate: 0,
+            scale: 0.8,
+            y: startMoveUp ? -50 : 0,
+            opacity: fadeOut ? 0 : 1,
+          }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          className="w-5 h-5"
+        />
+
+        {/* Second Element */}
+        <motion.img
+          src="/Second.png"
+          alt="Second"
+          initial={{ opacity: 0, y: 0 }}
+          animate={{
+            opacity: fadeOut ? 0 : 1,
+            y: startMoveUp ? -50 : 0, 
+          }}
+          transition={{
+            duration: 1,
+            ease: "easeInOut",
+          }}
+          className="w-12 h-12"
+        />
+      </div>
+
+      {/* Third Element */}
+      <motion.img
+        src="/Third.png"
+        alt="Third"
+        initial={{ opacity: 0, y: 0 }}
+        animate={{
+          opacity: showThird ? (fadeOut ? 0 : 1) : 0,
+          y: startMoveUp ? -50 : 0,
+        }}
+        transition={{
+          duration: 1,
+          ease: "easeInOut",
+        }}
+        className="w-20 h-auto"
+      />
+
+
 ## 🧑‍💻 Getting Started
 
 ### 1. Clone the Repository
