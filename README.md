@@ -1,4 +1,4 @@
-# 🎬 Animated Intro Screen using Next.js & Framer Motion
+# 🎬 Assignment: SDE Frontend
 
 This is a minimal animated splash screen project built with **Next.js**, **Tailwind CSS**and **Framer Motion**. It demonstrates how to sequentially animate multiple elements with scale, rotation, opacity, and coordinated upward movement — followed by a timed fade-out.
 
