@@ -18,8 +18,8 @@ This is a minimal animated splash screen project built with **Next.js**, **Tailw
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/animated-intro.git
-cd animated-intro
+git clone https://github.com/your-username/GrowthX-Assignment.git
+cd animateapp
 ```
 
 ### 2. Install Dependencies
